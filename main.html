@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Navigation -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#skills">Skills</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Heading -->
+    <h1 role="heading">My Portfolio</h1>
+
+    <!-- Image -->
+    <img 
+        src="https://thumbs.dreamstime.com/b/smiling-woman-avatar-flat-cartoon-style-portrait-headshot-image-features-smiling-woman-avatar-flat-cartoon-style-385984061.jpg" 
+        alt="Profile picture of the developer" 
+        role="img"
+        width="150"
+    >
+
+    <!-- Description -->
+    <p id="about">
+        I am a passionate web developer focused on building accessible and user-friendly web applications.
+    </p>
+
+    <!-- List Section -->
+    <section id="skills">
+        <h2 role="heading">Skills</h2>
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+        </ul>
+    </section>
 
 </body>
-
 </html>
